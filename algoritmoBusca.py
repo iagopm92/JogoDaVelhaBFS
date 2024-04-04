@@ -1,7 +1,7 @@
 from jogodavelha import vazio, token, verificaGanhador
 
 
-def movimentoIA(board, jogador): # função responsável pela verificação do melhor valor de jogada, do melhor movimento e as possíbilidade de jogadas do algoritmo
+def movimentoIA(board, jogador): # função responsável pela verificação do melhor valor de jogada, do melhor movimento e as possibilidades de jogadas do algoritmo
     possibilidades = getPosicoes(board) # a variavel recebe as posições preenchidas no tabuleiro
     melhor_valor = None # melhor valor iniciada com valor nulo
     melhor_movimento = None # melhor movimento iniciada com valor nulo
